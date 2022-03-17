@@ -18,21 +18,49 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Libre+Baskerville&family=Roboto+Slab:wght@100;700&family=Rubik:wght@300;400&family=Shadows+Into+Light&family=Syne+Mono&display=swap" rel="stylesheet"/>
+
     <link rel="stylesheet" href="style.css" />
-    <title>The Scheduler</title>
+    <title>The Scheduler 🗒️</title>
   </head>
 
   <body>
     <header class="jumbotron">
-      <h1 class="display-3">The Scheduler</h1>
+      <h1 class="display-3">The Scheduler 🗒️🖋️⌚</h1>
       <p class="lead">A simple calendar app for scheduling your day</p>
       <p id="currentDay" class="lead"></p>
     </header>
+    <!-- Insert a container for where the time slots will go-->
     <div class="container">
-      <!-- Timeblocks go here -->
+      <!-- Insert timeblocks, break down of each hour between 9am and 5pm-->
+      <div class="input-group input-group-lg" data-hour="9">
+      <div class="input-group-prepend">
+        <!-- Figure how to add a time-block class -->
+        <span class="input-group-text time-block block1"></span>
+      </div>
+      <input type="text" class="form-control form9" aria-label="large">
+      <!-- Include save button, with special disk icon-->
+      <button class="btn saveBtn"><i class="far fa-save"></i></button>
+      </div>
+<!-- Do the same for 10 am time block, with same Favacon save icon -->
+<div class="input-group input-group-lg" data-hour="10">
+  <div class="input-group-prepend"></div>
+  <span class="input-group-text time-block block2"></span>
+</div>
+<input type="text" class="form-control form10" aria-label="large">
+<button class="btn saveBtn"><i class="far fa-save"></i></button>
     </div>
 
+    
+    <!-- If time permits, allow timeblocks for after hours and weekend options-->
+
+    <!-- Insert JQuery and Moment.js links -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <!-- Link to script.js to allow interactive timeblocks-->
+  <script src="script.js"></script>
+  
   </body>
 </html>
