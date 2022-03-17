@@ -9,8 +9,11 @@ body {
   justify-content: center;
   text-align: center;
   font-weight:600;
-  
+
 }
+
+/*TODO: set colour key at the top for past, present and future */
+
 .colourcode {
   background-color: #ff6961;
 }
@@ -35,9 +38,6 @@ textarea {
   border-bottom: 10px solid black;
 }
 
-.colourcode {
-color: #ff6961;
-}
 .description {
   white-space: pre-wrap;
 }
@@ -87,11 +87,10 @@ color: #ff6961;
   transition: all 0.3s ease-in-out;
 }
 
-
+/* TODO: figure out why footer is not in center*/
 .footer {
   align-items: center;
   justify-content: center;
   padding-top: 20px;
   text-align: center;
-  
 }
