@@ -5,6 +5,14 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight:600;
+  
+}
+.colourcode {
+  background-color: #ff6961;
 }
 
 textarea {
@@ -17,6 +25,8 @@ textarea {
   font-family:'Shadows Into Light', cursive;
 }
 
+
+
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -25,6 +35,9 @@ textarea {
   border-bottom: 10px solid black;
 }
 
+.colourcode {
+color: #ff6961;
+}
 .description {
   white-space: pre-wrap;
 }
@@ -72,4 +85,13 @@ textarea {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+
+.footer {
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  text-align: center;
+  
 }
