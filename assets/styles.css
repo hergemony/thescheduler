@@ -4,18 +4,19 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  line-height: 1;
+  line-height: 2;
   align-items: center;
   justify-content: center;
   text-align: center;
   font-weight:600;
+  
 
 }
 
 /*TODO: set colour key at the top for past, present and future */
 
 .colourcode {
-  background-color: #ff6961;
+  
 }
 
 textarea {
@@ -28,6 +29,9 @@ textarea {
   font-family:'Shadows Into Light', cursive;
 }
 
+#currentDay {
+  font-weight: bolder;
+}
 
 
 .jumbotron {
@@ -88,9 +92,10 @@ textarea {
 }
 
 /* TODO: figure out why footer is not in center*/
-.footer {
-  align-items: center;
-  justify-content: center;
-  padding-top: 20px;
-  text-align: center;
-}
+
+footer {
+  font-size: xx-small;
+  font-family: 'Open Sans', sans-serif;
+  align-content: center;
+  margin-top: 50%;
+  }
