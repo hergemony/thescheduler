@@ -10,14 +10,12 @@ body {
   text-align: center;
   font-weight:600;
   
-
 }
 
-/*TODO: set colour key at the top for past, present and future */
-
-.colourcode {
-  
+.tab {
+  color: #06aed5;
 }
+
 
 textarea {
   background: transparent;
@@ -35,7 +33,7 @@ textarea {
 
 /*Boostrap features a jumbotron at the top. A jumbotron indicates a big box for calling extra attention to some special content or information.
 A jumbotron is displayed as a grey box with rounded corners. It also enlarges the font sizes of the text inside it.*/
-/*TODO: Figure out how to style individual elements within the jumbotron if given by bootstrap*/
+/*TODO: Figure out how to style individual elements within the jumbotron if set by bootstrap*/
 
 .jumbotron {
   text-align: center;
@@ -82,17 +80,22 @@ A jumbotron is displayed as a grey box with rounded corners. It also enlarges th
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  border-left: 2px solid black;
   border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-bottom-right-radius: 10px;
   background-color: #06aed5;
   color: white;
+  cursor: wait;
+  list-style-image: url(assets/savediskicon.jpeg);
+  font-size: larger;
+
 }
 
 .saveBtn i:hover {
-  font-size: 20px;
+  font-size: 40px;
   transition: all 0.3s ease-in-out;
 }
+
 
 footer {
   font-size: 5px;
