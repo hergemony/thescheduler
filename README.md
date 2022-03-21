@@ -10,6 +10,7 @@ We will be creating an interactive scheduler to help a user plan their work day!
 
 **SCREENSHOTS**
 1) Main page features header with local time that updates live.
+![alt text](https://github.com/hergemony/?raw=true)
 
 2) Hourly time blocks for a typical 9am to 5pm work day. Input area for entries by user into the scheduler.
 

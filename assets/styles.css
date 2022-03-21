@@ -9,6 +9,7 @@ body {
   justify-content: center;
   text-align: center;
   font-weight:600;
+  cursor: wait;
   
 }
 
@@ -79,6 +80,8 @@ A jumbotron is displayed as a grey box with rounded corners. It also enlarges th
   color: white;
 }
 
+/*TODO: Edit Save button icons*/
+
 .saveBtn {
   border-left: 2px solid black;
   border-top-right-radius: 15px;
@@ -86,7 +89,6 @@ A jumbotron is displayed as a grey box with rounded corners. It also enlarges th
   background-color: #06aed5;
   color: white;
   cursor: wait;
-  list-style-image: url(assets/savediskicon.jpeg);
   font-size: larger;
 
 }
