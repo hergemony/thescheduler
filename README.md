@@ -10,12 +10,18 @@ We will be creating an interactive scheduler to help a user plan their work day!
 
 **SCREENSHOTS**
 1) Main page features header with local time that updates live.
+
+
 ![alt text](https://github.com/hergemony/scheduler/blob/main/assets/Screen%20Shot%202022-03-21%20at%2010.43.15%20pm.png?raw=true)
 
 2) Hourly time blocks for a typical 9am to 5pm work day. Input area for entries by user into the scheduler.
+
+
 ![alt text](https://github.com/hergemony/scheduler/blob/main/assets/Screen%20Shot%202022-03-21%20at%2011.32.04%20pm.png?raw=true)
 
 3) A 'Save' button that saves items to local storage.
+
+
 ![alt text](https://github.com/hergemony/scheduler/blob/main/assets/Screen%20Shot%202022-03-21%20at%2011.33.32%20pm.png?raw=true)
 
 
