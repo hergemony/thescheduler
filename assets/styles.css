@@ -33,6 +33,9 @@ textarea {
   font-weight: bolder;
 }
 
+/*Boostrap features a jumbotron at the top. A jumbotron indicates a big box for calling extra attention to some special content or information.
+A jumbotron is displayed as a grey box with rounded corners. It also enlarges the font sizes of the text inside it.*/
+/*TODO: Figure out how to style individual elements within the jumbotron if given by bootstrap*/
 
 .jumbotron {
   text-align: center;

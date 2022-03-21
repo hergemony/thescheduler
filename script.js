@@ -5,7 +5,7 @@ $("#currentDay").text(moment().format('dddd MMMM Do YYYY, h:mm a'));
 // Moment Current time; to display after heading at top
 var currentTime = moment();
 // Returns current time to the nearest hour - 12:30 becomes 12:00
-currentTIme = currentTime.startOf("hour");
+currentTime = currentTime.startOf("hour");
 // The start of the day +9 to return to 9am, calculate this:
 var beforeTime = moment().startOf('day').add(9, "hours");
 
