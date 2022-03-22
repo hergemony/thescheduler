@@ -27,6 +27,8 @@ We will be creating an interactive scheduler to help a user plan their work day!
 
 4) Attribute changes for hour by hour tracking with colour codes (Grey is past the current hour, red is the curent hour, green is after the current hour).
 
+
+
 **Javascript Features**
 - Moment.js to display local time
 - Javascript calendar style with matching Jquery methods
